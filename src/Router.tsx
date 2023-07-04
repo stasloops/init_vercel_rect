@@ -7,20 +7,20 @@ import StartedPage from "./(components)/pages/StartedPage";
 const router = createBrowserRouter(
   [
     {
-      path: "/app",
+      path: "/",
       element: <StartedPage />,
     },
     {
-      path: "/app/profile",
+      path: "/profile",
       element: <Profile />,
     },
     {
-      path: "/app/feed",
+      path: "/feed",
       element: <Feed />,
     },
   ],
   {
-    basename: "/app",
+    basename: "/",
   }
 );
 
