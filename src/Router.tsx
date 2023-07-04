@@ -6,15 +6,15 @@ import StartedPage from "./(components)/pages/StartedPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/app",
     element: <StartedPage />,
   },
   {
-    path: "/profile",
+    path: "/app/profile",
     element: <Profile />,
   },
   {
-    path: "/feed",
+    path: "/app/feed",
     element: <Feed />,
   },
 ]);
