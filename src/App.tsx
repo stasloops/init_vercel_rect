@@ -8,16 +8,16 @@ function App() {
 
     win.yaContextCb.push(() => {
       /* @ts-ignore */
-      Ya.Context.AdvManager.renderWidget({
-        renderTo: "yandex_rtb_C-A-2507683-1",
-        blockId: "C-A-2507683-1",
+      Ya.Context.AdvManager.render({
+        blockId: "R-A-2507872-1",
+        renderTo: "yandex_rtb_R-A-2507872-1",
       });
     });
   }, []);
   return (
     <div>
       Ads
-      <div id="yandex_rtb_C-A-2507683-1"></div>
+      <div id="yandex_rtb_R-A-2507872-1"></div>
       <Router />
     </div>
   );
